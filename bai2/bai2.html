@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bai2.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header" id="headerInput">
+        <div class="playAndPoint">
+          <div>Player:</div>
+          <div>Total Points:</div>
+        </div>
+      </header>
+      <div class="logoRikkei"><h2>Rikkei Scoreboard</h2></div>
+      <div class="stopwatch">
+        <div>stopwatch</div>
+        <div>
+          <p>Thời gian: <span id="timer">0</span></p>
+        </div>
+        <button id="start-stop" onclick="start()">START</button>
+        <button onclick="reset()">RESET</button>
+      </div>
+      <div class="playerAdded">
+        <table id="tableName"></table>
+      </div>
+      <div class="addPlayer">
+        <input type="text" name="" id="name" />
+        <button onclick="addButton()">ADD PLAYER</button>
+      </div>
+    </div>
+  </body>
+  <script src="./bai2.js"></script>
+</html>
